@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="paex2.paginas.login"
+             Title="Iniciar sesion">
+    <ContentPage.Content>
+        <StackLayout>
+            
+                <Label Text="Usuario" HorizontalOptions="Center"></Label>
+                <Entry x:Name="txtUsuario" Placeholder="usuario"/>
+                <Entry x:Name="txtPassword" Placeholder="contrasenia" IsPassword="True"/>
+
+                <Button x:Name="btnIniciar" Text="iniciar" Clicked="btnIniciar_Clicked"></Button>
+                <Button x:Name="btnRegistro" Text="registrar" Clicked="btnRegistro_Clicked"></Button>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

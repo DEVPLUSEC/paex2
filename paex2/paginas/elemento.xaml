@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="paex2.paginas.elemento"
+             Title="Actualizar/eliminar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtID"/>
+            <Entry x:Name="txtNombre"/>
+            <Entry x:Name="txtUsuario"/>
+            <Entry x:Name="txtContrasena"/>
+
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked"/>
+
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
